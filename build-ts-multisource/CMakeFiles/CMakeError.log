@@ -1,0 +1,1692 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_04a3e && [1/2] Building C object CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_04a3e.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a9df8 && [1/2] Building C object CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_a9df8.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0fc35 && [1/2] Building C object CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0fc35.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7d80e && [1/2] Building C object CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_7d80e.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_576c0 && [1/2] Building CXX object CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_576c0.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_169df && [1/2] Building CXX object CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_169df.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_968d7 && [1/2] Building CXX object CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_968d7.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_46da1 && [1/2] Building CXX object CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_46da1.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test COMPILER_HAS_NO_DEFINE_TARGET_OS_MACROS failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f58cb && [1/2] Building C object CMakeFiles/cmTC_f58cb.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f58cb.dir/src.c.o 
+/usr/local/llvm5.0/bin/clang -DCOMPILER_HAS_NO_DEFINE_TARGET_OS_MACROS  -fno-define-target-os-macros -MD -MT CMakeFiles/cmTC_f58cb.dir/src.c.o -MF CMakeFiles/cmTC_f58cb.dir/src.c.o.d -o CMakeFiles/cmTC_f58cb.dir/src.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/src.c
+clang-5.0: error: unknown argument: '-fno-define-target-os-macros'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_18bb9 && [1/2] Building C object CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_18bb9.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f3748 && [1/2] Building C object CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_f3748.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b5ea6 && [1/2] Building C object CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_b5ea6.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3a6cb && [1/2] Building C object CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_3a6cb.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5038c && [1/2] Building CXX object CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_5038c.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_30e9a && [1/2] Building CXX object CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_30e9a.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_acc32 && [1/2] Building CXX object CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_acc32.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3ee00 && [1/2] Building CXX object CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_3ee00.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_75f2b && [1/2] Building C object CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_75f2b.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bd102 && [1/2] Building C object CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_bd102.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_222b3 && [1/2] Building C object CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_222b3.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bc92f && [1/2] Building C object CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_bc92f.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_663ae && [1/2] Building CXX object CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_663ae.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ac8ca && [1/2] Building CXX object CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_ac8ca.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ab615 && [1/2] Building CXX object CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_ab615.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_246d5 && [1/2] Building CXX object CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_246d5.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_512da && [1/2] Building C object CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_512da.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_57f78 && [1/2] Building C object CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_57f78.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_acf3e && [1/2] Building C object CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_acf3e.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4242f && [1/2] Building C object CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_4242f.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_414ad && [1/2] Building CXX object CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_414ad.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a6543 && [1/2] Building CXX object CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_a6543.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5d37d && [1/2] Building CXX object CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_5d37d.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_35e5d && [1/2] Building CXX object CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_35e5d.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_df676 && [1/2] Building C object CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_df676.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0e935 && [1/2] Building C object CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0e935.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_59495 && [1/2] Building C object CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_59495.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9026c && [1/2] Building C object CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_9026c.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_21c8e && [1/2] Building CXX object CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_21c8e.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_14e1e && [1/2] Building CXX object CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_14e1e.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9a7cb && [1/2] Building CXX object CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_9a7cb.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_edb5e && [1/2] Building CXX object CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_edb5e.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_601bd && [1/2] Building C object CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_601bd.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c0777 && [1/2] Building C object CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_c0777.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4b767 && [1/2] Building C object CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -fopenmp -v -MD -MT CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_4b767.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2e8fc && [1/2] Building C object CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o
+FAILED: CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o 
+/usr/local/llvm5.0/bin/clang   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_2e8fc.dir/OpenMPTryFlag.c.o -x c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e1e58 && [1/2] Building CXX object CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_e1e58.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_70b19 && [1/2] Building CXX object CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_70b19.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_06f1e && [1/2] Building CXX object CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -fopenmp -v -MD -MT CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_06f1e.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1d627 && [1/2] Building CXX object CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o
+FAILED: CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o 
+/usr/local/llvm5.0/bin/clang++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o -c /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm5.0/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/local/llvm5.0/bin/clang-5.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.gcno -resource-dir /usr/local/llvm5.0/lib/clang/5.0.1 -dependency-file CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/llvm5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_1d627.dir/OpenMPTryFlag.cpp.o -x c++ /home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/x86_64-linux-gnu/c++/12
+ /usr/lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward
+ /usr/local/include
+ /usr/local/llvm5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/common/compiler/bolt-epp-test/build-ts-multisource/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+

@@ -1,0 +1,38 @@
+===========================================
+EPP+BOLT Verification: network-dijkstra
+===========================================
+
+[1/7] Compiling baseline binary...
+      ? Baseline: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra_base
+
+[2/7] Building LLVM bitcode for EPP...
+      ? Bitcode: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/network-dijkstra.bc
+
+[3/7] Collecting EPP path profiles...
+      ? EPP executable created
+      Running EPP with input: input.dat
+      ? Found EPP profile: network-dijkstra.profile
+      ? EPP profiles collected
+
+[4/7] BOLT Official optimization...
+      ? BOLT instrumented binary created
+      ? BOLT-optimized binary: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra_bolt_opt
+
+[5/7] Converting EPP profiles to BOLT format...
+      ? EPP fdata: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra.epp.fdata
+
+[6/8] Fusing BOLT and EPP data...
+      ? Data fusion complete: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra.fused.fdata
+
+[7/8] BOLT optimization with fused data...
+      ? FUSED+BOLT-optimized: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra_fused_bolt_opt
+
+[8/9] EPP-only optimization (for comparison)...
+      ? EPP-only-optimized: /home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra_epp_bolt_opt
+
+[9/9] Summary Report
+===========================================
+stat: cannot statx '/home/common/compiler/bolt-epp-test/results/verify_dijkstra/dijkstra_fused_bolt_opt': No such file or directory
+Binary Sizes:
+  Baseline:           31K
+  BOLT-opt:           4.1M

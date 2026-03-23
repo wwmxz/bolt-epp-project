@@ -1,0 +1,14 @@
+# Curated classic MultiSource benchmark targets (one per line)
+# Keep names aligned with llvm_multisource(...) target names.
+
+nbench
+scimark2
+bh
+mst
+em3d
+health
+tsp
+network-dijkstra
+office-stringsearch
+security-sha
+telecomm-fft

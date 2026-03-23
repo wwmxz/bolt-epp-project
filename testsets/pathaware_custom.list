@@ -1,0 +1,4 @@
+# Copy this file and edit benchmarks as needed.
+# Format: suite_rel|benchmark|timeout_seconds
+# Example:
+# MultiSource/Benchmarks/MiBench/network-dijkstra|network-dijkstra|120

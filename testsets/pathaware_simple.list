@@ -1,0 +1,4 @@
+# suite_rel|benchmark|timeout_seconds
+MultiSource/Benchmarks/MiBench/network-dijkstra|network-dijkstra|120
+MultiSource/Benchmarks/Olden/tsp|tsp|120
+MultiSource/Benchmarks/MiBench/security-sha|security-sha|120

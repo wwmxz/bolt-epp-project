@@ -1,0 +1,4 @@
+# suite_rel|benchmark|timeout_seconds
+MultiSource/Applications/sqlite3|sqlite3|900
+MultiSource/Applications/minisat|minisat|600
+SingleSource/Benchmarks/Linpack|linpack-pc|480
